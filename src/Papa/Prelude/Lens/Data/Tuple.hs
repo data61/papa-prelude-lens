@@ -1,4 +1,7 @@
-module Papa.Prelude.Lens.Data.Tuple where
+module Papa.Prelude.Lens.Data.Tuple(
+  fst
+, snd
+) where
 
 import Control.Lens(Field1, Field2, _1, _2, (^.))
 

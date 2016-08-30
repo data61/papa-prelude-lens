@@ -40,6 +40,7 @@ library
 
   exposed-modules:
                     Papa.Prelude.Lens
+                    , Papa.Prelude.Lens.Data.List
                     , Papa.Prelude.Lens.Data.Tuple
 
 test-suite doctests
