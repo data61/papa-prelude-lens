@@ -27,6 +27,7 @@ library
 
   build-depends:
                     base < 5 && >= 4.8
+                    , lens >= 4.1 && < 5
 
   ghc-options:
                     -Wall
@@ -39,7 +40,7 @@ library
 
   exposed-modules:
                     Papa.Prelude.Lens
-                    
+
 test-suite doctests
   type:
                     exitcode-stdio-1.0
