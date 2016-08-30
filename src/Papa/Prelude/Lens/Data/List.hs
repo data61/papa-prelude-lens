@@ -3,6 +3,7 @@ module Papa.Prelude.Lens.Data.List(
 , tail
 , last
 , init
+, (!!)
 ) where
 
 import Control.Lens
@@ -36,3 +37,11 @@ init ::
   -> Maybe s
 init =
   (^? _init)
+
+(!!) ::
+  Ixed s =>
+  s
+  -> Index s
+  -> Maybe (IxValue s)
+q !! n =
+  q ^? ix n
