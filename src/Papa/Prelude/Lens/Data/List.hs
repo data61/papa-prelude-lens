@@ -6,9 +6,8 @@ module Papa.Prelude.Lens.Data.List(
 , (!!)
 ) where
 
-import Control.Lens
-import Control.Lens.Cons
-import Data.Maybe
+import Control.Lens(Cons, Snoc, Ixed, Index, IxValue, (^?), ix, _head, _tail, _last, _init)
+import Data.Maybe(Maybe)
 
 head ::
   Cons s s a a =>
