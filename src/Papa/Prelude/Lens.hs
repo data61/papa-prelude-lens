@@ -1,3 +1,5 @@
+{-# LANGUAGE NoImplicitPrelude #-}
+
 module Papa.Prelude.Lens(
   module P
 ) where

@@ -1,3 +1,5 @@
+{-# LANGUAGE NoImplicitPrelude #-}
+
 module Papa.Prelude.Lens.Data.Tuple(
   fst
 , snd
