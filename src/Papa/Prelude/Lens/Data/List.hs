@@ -46,3 +46,6 @@ init =
   -> Maybe (IxValue s)
 q !! n =
   q ^? ix n
+
+infixl 9 !!
+
